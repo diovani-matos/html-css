@@ -1,0 +1,6 @@
+aqui deixei so o formato mp4 que foi baixado
+fiquei com preguiça de baixar o programa e converter só para exemplo
+o programa é handbrake
+ideal quando for colocar videos/audio é usar todos os formatos
+pois não se sabe em qual navegador o usuario vai abrir e nem todos suportam
+formatos sao mp4/m4v, webm e ogg

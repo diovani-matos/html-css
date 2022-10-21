@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste midias</title>
+</head>
+<body>
+    <h1>Exercício de midias!</h1>
+    <p>Imagens que se adaptam ao tamanho da tela</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagensgimp/imagem-p.png">
+        <source media="(max-width: 1050px)" srcset="imagensgimp/imagem-m.png">
+        <img src="imagensgimp/imagem-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Videos</h1>
+    <p>Aqui pegarei videos do youtube para não consumir dados do servidor!</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Esse video eu baixei no pexels só para outro exemplo!</p>
+    <video src="videos/meuvideo.mp4" controls width="200px"></video>
+</body>
+</html>
