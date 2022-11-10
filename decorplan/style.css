@@ -36,10 +36,12 @@ header > nav > a {
     padding: 20px 30px;
 }
 
-.quemsomos {
-    display: inline-block;
-    text-indent: center;
+.ambientes {
+    display: block;
+    margin: 10px;
+    
 }
+
 footer {
     background-color: var(--cor3);
     color: var(--cor1);
