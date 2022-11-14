@@ -1,0 +1,16 @@
+@charset "UTF 8";
+
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient( to bottom, #FF6B86, #ee4b698e);
+    height: 300px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em; 
+}
+
