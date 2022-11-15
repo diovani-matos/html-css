@@ -30,7 +30,7 @@ header {
 
 header > h1 {
     font-family: var(--fonte-destaque);
-    font-size: 7em;
+    font-size: 10vw;   /*vw para adaptar ao tamanho da tela*/
 }
 
 header p {
@@ -52,7 +52,11 @@ section {
     padding-bottom: 15vh;
     line-height: 1.5em;
     padding-left: 25px;
-    font-size: 2.3em;
+    font-size: 4vw;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 .normal {
@@ -60,13 +64,29 @@ section {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.288);
 }
 
-.imagem {
+section.imagem {
+    background-position-y: center;
+    background-position-x: center;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.493);
+}
+
+section#img1 {
+    background-image: url(imagens/background001.jpg);
+    
     
 }
 
+section#img2 {
+    background-image: url(imagens/background002.jpg);
+
+}
+
 .imagem > p {
-    background-color: rgba(0, 0, 0, 0.151);
-    width: 400px;
+    background-color: rgba(0, 0, 0, 0.418);
+    color: white;
+    max-width: 50%;
 }
 
 footer {
