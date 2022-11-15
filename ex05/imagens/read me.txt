@@ -1,5 +1,0 @@
-cores
-#EE4266 - Rosa
-#7B8CDE - azul
-#C0E6DE - azul mais claro
-#FF6183 - outro rosa
