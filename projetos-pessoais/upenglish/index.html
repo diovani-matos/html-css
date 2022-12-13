@@ -12,10 +12,19 @@
         <h1>Up English</h1>
         <p>Sua escola de inglês online!</p>
     </header>
-    <main>
-        <div>
-            
-        </div>
-    </main>
+    <div class="container">
+        <form action="login.php" method="POST" autocomplete="off">
+            <div>
+                <label for="ilogin">Login:</label>
+                <input type="email" name="email" id="iemail" required>
+            </div>
+            <div>
+                <label for="isenha">Senha:</label>
+                <input type="password" name="senha" id="isenha" required minlength="8">
+            </div>
+            <input type="submit" value="Login">
+        
+        </form>
+    </div>
 </body>
 </html>
