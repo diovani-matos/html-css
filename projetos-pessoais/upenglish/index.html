@@ -8,23 +8,20 @@
     <title>Up English</title>
 </head>
 <body>
-    <header>
-        <h1>Up English</h1>
-        <p>Sua escola de inglês online!</p>
-    </header>
-    <div class="container">
-        <form action="login.php" method="POST" autocomplete="off">
-            <div>
-                <label for="ilogin">Login:</label>
-                <input type="email" name="email" id="iemail" required>
-            </div>
-            <div>
-                <label for="isenha">Senha:</label>
-                <input type="password" name="senha" id="isenha" required minlength="8">
-            </div>
-            <input type="submit" value="Login">
-        
-        </form>
-    </div>
+        <main>
+            <section id="login">
+               <div id="img">
+                foto
+               </div>
+               <div id="form">
+                    <form action="login.php" method="post">
+                        <input type="email" name="email" id="iemail" required>
+                        <input type="password" name="senha" id="isenha" required minlength="8">
+                        <button type="submit">Login</button>
+                        <button>Esqueci minha senha</button>
+                    </form>
+               </div>
+            </section>
+        </main>
 </body>
 </html>
