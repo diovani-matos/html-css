@@ -46,5 +46,6 @@ section#login {
 
 section#login > div#img {
     background-image: url(../imagens/pexels-dominika-roseclay-1036808.jpg);
-    
+    height: 250px;
+    width: 100px;
 }
