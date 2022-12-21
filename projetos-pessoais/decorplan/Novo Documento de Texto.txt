@@ -1,5 +1,0 @@
-cores
-
-cinza claro- #DCE1DE
-marrom claro- #A37833
-cinza escuro- #333232
